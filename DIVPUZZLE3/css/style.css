@@ -112,22 +112,24 @@
   display: block;
   width: 200px;
   height: 200px;
-  position: relative;
+  
 } 
 
 .box1 {
-  position: absolute;
   top:20px ;
   right: 70px;
+  left: 70px;
 }
 
 .box2 {
-  position: absolute;
+  top: 70px;
+  left: 70px;
   right: 70px;
 }
 
 .box3 {
-  position: absolute;
+  top: 120px;
+  left: 70px;
   right: 70px;
 }
 
