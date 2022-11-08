@@ -1,0 +1,170 @@
+/*.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
+
+.header {
+    width:400px;
+    height: 100px;
+    background-color:#141f40;
+    display: flex;
+    position: relative;       
+}
+
+.box1 {
+  width: 40px;
+  height: 40px;
+  background-color: #a9004b;
+  border: 10px solid #EEEEEE;
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  left: 225px;
+}
+
+.box2 {
+  width: 40px;
+  height: 40px;
+  background-color: #a9004b;
+  border: 10px solid #EEEEEE;
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  left: 275px;
+}
+
+.box3 {
+  width: 40px;
+  height: 40px;
+  background-color: #a9004b;
+  border: 10px solid #EEEEEE;
+  position: absolute;
+  top: 20px;
+  
+  left: 325px;
+}
+
+.main {
+ /* width:400px;
+  height: 100px;*/
+  display: flex;
+}
+
+.left {
+  width:150px;
+  height:250px;
+  background-color:#80bfa8;
+  /*float: left;*/
+}
+
+.right {
+  width:250px;
+  height:250px;
+  background-color: #8c2727;
+  position: relative
+ /* float: left;*/
+}
+
+.item1 {
+  width: 140px;
+  height: 40px;
+  background-color: #FF863F;
+  border: 5px solid #EEEEEE;
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  left: 40px;
+}
+
+.item2 {
+  width: 140px;
+  height: 40px;
+  background-color: #FF863F;
+  border: 5px solid #EEEEEE;
+  position: absolute;
+  top: 100px;
+  right: 60px;
+  bottom: 100px;
+  left: 40px;
+}
+
+.item3 {
+  width: 140px;
+  height: 40px;
+  background-color: #FF863F;
+  border: 5px solid #EEEEEE;
+  position: absolute;
+  top: 160px;
+  right: 60px;
+  bottom: 40px;
+  left: 40px;
+}
+
+.footer {
+  width:400px;
+  height: 100px;
+  background-color:#d98d30 ;
+}
+
+@media screen and (max-width: 479px) {
+.header {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+} 
+
+.box1 {
+  position: absolute;
+  top:20px ;
+  right: 70px;
+}
+
+.box2 {
+  position: absolute;
+  right: 70px;
+}
+
+.box3 {
+  position: absolute;
+  right: 70px;
+}
+
+.main {
+   display: block;
+ }
+
+ .left{
+  width: 200px;
+  height: 100px;
+ }
+
+ .right {
+  width: 200px;
+  height: 210px;
+ }
+
+ .item1{
+  position: absolute;
+  top: 20px;
+  left: 25px;
+ }
+
+ .item2{
+  position: absolute;
+  top: 80px;
+  left: 25px;
+ }
+
+ .item3{
+  position: absolute;
+  left: 25px;
+  top: 140px;
+ }
+
+ .footer {
+  width: 200px;
+ }
+
+}
